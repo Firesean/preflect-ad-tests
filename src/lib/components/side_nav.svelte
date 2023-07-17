@@ -3,7 +3,13 @@
     import SideNavBlock from "./side_nav_block.svelte";
 </script>
 
-<div class="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6">
+<style>
+    .sideNavOption {
+        @apply -mx-2 space-y-1 border-solid border-b-2;
+    }
+</style>
+
+<div class="sticky top-0 flex-grow flex-col w-1/4 hidden sm:block gap-y-5 border-r border-gray-200 bg-white px-6 w-[20rem] overflow-x-hidden">
     <div class="flex w-[12rem]">
       <PreflectLogo />
     </div>
@@ -40,7 +46,7 @@
           </ul>
         </li>
         <li>
-            <ul class="-mx-2 space-y-1 border-solid border-b-2">
+            <ul class="sideNavOption">
                 <li>
                     <SideNavBlock
                     label="Support" link="#"
@@ -57,7 +63,7 @@
         </li>
 
         <li>
-            <ul class="-mx-2 space-y-1 border-solid border-b-2 pb-20">
+            <ul class="sideNavOption pb-20">
                 <li>
                     <SideNavBlock
                     label="Datasets" link="#"
@@ -83,7 +89,7 @@
             </ul>
         </li>
 
-        <li class="-mx-2 space-y-1 border-solid border-b-2">
+        <li class="sideNavOption">
             <h1>
                 Sample Business
             </h1>

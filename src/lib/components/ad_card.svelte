@@ -3,5 +3,5 @@
         <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
       
-    <span>edit <button type='reset'>fegrt</button></span>
+    <span>edit <button type='reset'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</button></span>
 </div>
