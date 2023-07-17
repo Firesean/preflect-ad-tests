@@ -25,5 +25,17 @@
     </label>
   </span>
 
+    <div class="grid grid-cols-2">
+    <figure>
+      <img src="../../../src/images/photo-1685226119907-1d836117d2fe.jpg" alt="Placeholder Image">
+      <figcaption>Feed</figcaption>
+    </figure>
+
+    <figure>
+      <img src="../../../src/images/photo-1685226119907-1d836117d2fe.jpg" alt="Placeholder Image">
+      <figcaption>Story</figcaption>
+    </figure>
+  </div>
+
 
 </div>

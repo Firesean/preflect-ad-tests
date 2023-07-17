@@ -17,11 +17,11 @@
     }
 </style>
 
-<div class="sticky top-0 w-[24%] hidden sm:block gap-y-5  bg-white px-6 overflow-x-hidden">
+<div class="sticky top-0 w-[24%] hidden sm:block bg-white px-6 overflow-x-hidden">
     <div class="flex w-[12rem]">
       <PreflectLogo />
     </div>
-    <nav class="flex flex-1 flex-col">
+    <nav>
       <ul role="list" class="flex flex-1 flex-col gap-y-7 w-[9rem]">
         <li>
           <ul role="list" class="-mx-2 space-y-1 navUnderline w-[9rem]"> <!-- Needs to be modified to be a css class -->
@@ -40,7 +40,7 @@
             <li>
                 <!-- SVG path needs modifying to match -->
                 <SideNavBlock
-                label="Google Ads" link="#" rotation="-45"
+                label="Google Ads" link="#" rotation="-30"
                 svgPathing="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" 
                 />
               <!-- Closest I could find to the specified SVG icon -->
