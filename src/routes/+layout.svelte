@@ -9,8 +9,7 @@
     });
 </script>
 
-<div>
+<div class='flex'>
     <SideNav />
-
     <slot />
 </div>

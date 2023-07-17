@@ -4,8 +4,8 @@
 </script>
 
 <div class='w-3/4 ml-auto grid bg-gray-two p-3'>
-    <div class="grid grid-cols-2">
-        <div class='p-2 m-auto'>
+    <div class="grid grid-cols-2 m-auto h-[1rem]">
+        <div class='pl-2'>
             <h1 class='font-bold text-3xl'>Meta Ads</h1>
             <p class='text-gray-one text-base'>Run evergreen ads on Facebook and Instagram</p>
         </div>
@@ -14,8 +14,6 @@
         </div>
     </div>
     <section class="grid grid-cols-3">
-        <AdCard />
-        <AdCard />
         <AdCard />
         <AdCard />
         <AdCard />
