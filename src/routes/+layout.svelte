@@ -9,6 +9,8 @@
     });
 </script>
 
-<SideNav />
+<div>
+    <SideNav />
 
-<slot />
+    <slot />
+</div>

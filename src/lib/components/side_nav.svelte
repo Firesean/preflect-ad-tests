@@ -17,7 +17,7 @@
     }
 </style>
 
-<div class="sticky top-0 flex-grow flex-col w-[24%] hidden sm:block gap-y-5 border-r border-gray-200 bg-white px-6 w-[15rem] overflow-x-hidden">
+<div class="sticky top-0 w-[24%] hidden sm:block gap-y-5  bg-white px-6 overflow-x-hidden">
     <div class="flex w-[12rem]">
       <PreflectLogo />
     </div>
@@ -40,7 +40,7 @@
             <li>
                 <!-- SVG path needs modifying to match -->
                 <SideNavBlock
-                label="Google Ads" link="#"
+                label="Google Ads" link="#" rotation="-45"
                 svgPathing="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" 
                 />
               <!-- Closest I could find to the specified SVG icon -->
@@ -71,7 +71,7 @@
         </li>
 
         <li>
-            <ul class="sideNavOption navUnderline pb-20 w-[15rem]">
+            <ul class="sideNavOption navUnderline pb-20">
                 <li>
                     <SideNavBlock
                     label="Datasets" link="#"
@@ -98,7 +98,7 @@
         </li>
 
         <li class="sideNavOption navUnderline">
-            <h1>
+            <h1 class="font-bold">
                 Sample Business
             </h1>
             <a href="#" class='specialLink'>

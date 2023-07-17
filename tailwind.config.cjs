@@ -10,6 +10,10 @@ export default {
       purple: {
         one: "#5650e3",
       },
+
+      white: {
+        one: "#FFFFFF",
+      }
     },
     extend: {},
   },
