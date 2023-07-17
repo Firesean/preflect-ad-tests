@@ -5,18 +5,26 @@
 
 <style>
     .sideNavOption {
-        @apply -mx-2 space-y-1 border-solid border-b-2;
+        @apply -mx-2 space-y-1;
+    }
+
+    .navUnderline {
+        @apply border-solid border-b-2 border-gray-two;
+    }
+
+    .specialLink {
+        @apply text-purple-one text-base font-semibold;
     }
 </style>
 
-<div class="sticky top-0 flex-grow flex-col w-1/4 hidden sm:block gap-y-5 border-r border-gray-200 bg-white px-6 w-[20rem] overflow-x-hidden">
+<div class="sticky top-0 flex-grow flex-col w-[24%] hidden sm:block gap-y-5 border-r border-gray-200 bg-white px-6 w-[15rem] overflow-x-hidden">
     <div class="flex w-[12rem]">
       <PreflectLogo />
     </div>
     <nav class="flex flex-1 flex-col">
-      <ul role="list" class="flex flex-1 flex-col gap-y-7">
+      <ul role="list" class="flex flex-1 flex-col gap-y-7 w-[9rem]">
         <li>
-          <ul role="list" class="-mx-2 space-y-1 border-b-2"> <!-- Needs to be modified to be a css class -->
+          <ul role="list" class="-mx-2 space-y-1 navUnderline w-[9rem]"> <!-- Needs to be modified to be a css class -->
             <li>
                 <SideNavBlock
                 label="Overview" link="#"
@@ -46,7 +54,7 @@
           </ul>
         </li>
         <li>
-            <ul class="sideNavOption">
+            <ul class="sideNavOption navUnderline w-[9rem]">
                 <li>
                     <SideNavBlock
                     label="Support" link="#"
@@ -63,7 +71,7 @@
         </li>
 
         <li>
-            <ul class="sideNavOption pb-20">
+            <ul class="sideNavOption navUnderline pb-20 w-[15rem]">
                 <li>
                     <SideNavBlock
                     label="Datasets" link="#"
@@ -89,23 +97,23 @@
             </ul>
         </li>
 
-        <li class="sideNavOption">
+        <li class="sideNavOption navUnderline">
             <h1>
                 Sample Business
             </h1>
-            <a href="#">
+            <a href="#" class='specialLink'>
                 <span>Switch accounts
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 pb-1 inline-block">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                  </svg>
+                </svg>
             </a>
         </li>
 
-        <li>
-            <a href="#">Log out 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <li class='sideNavOption'>
+            <a href="#" class='specialLink'>Log out 
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 pb-1 inline-block">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
-                  </svg>
+                </svg>
             </a>
         </li>
       </ul>

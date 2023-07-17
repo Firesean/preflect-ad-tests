@@ -6,13 +6,14 @@
 
 </script>
 
-
-<SideNav />
-
-<div class='w-full flex-row'>
-    <h1 class='font-bold text-3xl'>Meta Ads</h1>
-    <p class='flex text-gray-one text-base'>Run evergreen ads on Facebook and Instagram</p>
+<div class='w-3/4 flex ml-auto'>
+    <div>    
+        <h1 class='font-bold text-3xl'>Meta Ads</h1>
+        <p class='flex text-gray-one text-base'>Run evergreen ads on Facebook and Instagram</p>
+    </div>
     <CreateAdButton />
 </div>
 
-<AdCard />
+<section class='w-3/4 flex ml-auto'>
+    <AdCard />
+</section>

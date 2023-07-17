@@ -1,4 +1,5 @@
 <script>
+    import SideNav from '$lib/components/side_nav.svelte';
     import '../app.css';
     import { onMount } from 'svelte';
 
@@ -7,5 +8,7 @@
         document.title = title; // Set the document title on component mount
     });
 </script>
+
+<SideNav />
 
 <slot />

@@ -5,6 +5,7 @@ export default {
     colors: {
       gray: {
         one: '#4d5562',
+        two: "#e5e7eb",
       },
       purple: {
         one: "#5650e3",
