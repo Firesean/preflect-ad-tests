@@ -5,15 +5,10 @@
       isChecked = !isChecked;
     }
 </script>
-
-<label class="items-center cursor-pointer">
-    <div class="relative">
-      <input type="checkbox" class="hidden" bind:checked={isChecked} />
-      <div class="w-10 h-4 bg-red-400 rounded-full shadow-inner"></div>
-      <div class="dot absolute w-6 h-6 rounded-full shadow -left-1 -top-1 transition-transform duration-300 ease-in-out transform translate-x-0 bg-red-500" 
-           class:translate-x-6={isChecked}
-           class:bg-purple-600={isChecked}
-      >
-    </div>
-    </div>
-  </label>
+  
+<!-- svelte-ignore a11y-no-static-element-interactions -->
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<div class="h-[1.5rem] w-[3rem] rounded-full {isChecked ? 'bg-purple-one' : 'bg-gray-three'}" on:click={toggleSwitch}>
+    <div class="h-[1.25rem] w-[1.25rem] m-[.125rem] rounded-full bg-white-one {isChecked ? 'translate-x-[1.5rem] duration-300' : 'translate-x-0 duration-300'}" />
+</div>
+  

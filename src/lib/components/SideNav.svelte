@@ -27,7 +27,7 @@
 
 </style>
 
-<div class="sticky top-0 w-[19%] hidden sm:block bg-white px-6 overflow-x-hidden">
+<div class="sticky top-0 w-[25%] hidden sm:block bg-white px-6 overflow-x-hidden">
     <div>
       <PreflectLogo />
     </div>
