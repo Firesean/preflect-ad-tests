@@ -13,14 +13,9 @@
         <CreateAdButton />
       </div>
     </div>
-    <section class="grid grid-cols-3 gap-3">
+    <section class="grid grid-cols-3 gap-3 mb-[20rem]">
       <AdCard />
       <AdCard />
-      <AdCard />
-      <!-- <AdCard />
-      <AdCard />
-      <AdCard />
-      <AdCard /> -->
     </section>
   </div>
   

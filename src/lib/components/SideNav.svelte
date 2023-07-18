@@ -6,8 +6,9 @@
 <style>
 
     li {
-        @apply text-gray-one;
+        @apply text-gray-one pt-2 pb-2;
     }
+
     .sideNavOption {
         @apply -mx-2 space-y-1;
     }
@@ -19,11 +20,6 @@
     .specialLink {
         @apply text-purple-one text-base font-semibold;
     }
-
-    li {
-        @apply pt-2 pb-2;
-    }
-
 
 </style>
 
@@ -48,12 +44,10 @@
                 />
             </li>
             <li>
-                <!-- SVG path needs modifying to match -->
                 <SideNavBlock
                 label="Google Ads" link="#" rotation="-30"
                 svgPathing="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" 
                 />
-              <!-- Closest I could find to the specified SVG icon -->
             </li>
             <li>
                 <SideNavBlock
@@ -108,11 +102,11 @@
         </li>
 
         <li class="sideNavOption navUnderline">
-            <h1 class="font-bold">
+            <h1 class="font-bold responsiveText">
                 Sample Business
             </h1>
             <a href="#" class='specialLink'>
-                <span>Switch accounts
+                <span class="responsiveText">Switch accounts
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 pb-1 inline-block">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                 </svg>
@@ -120,7 +114,7 @@
         </li>
 
         <li class='sideNavOption'>
-            <a href="#" class='specialLink'>Log out 
+            <a href="#" class='specialLink responsiveText'>Log out 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 pb-1 inline-block">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
                 </svg>

@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.responsiveText {
+    @apply lg:text-base md:text-sm sm:text-[.8rem];
+}

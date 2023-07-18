@@ -2,7 +2,7 @@
     export let color = "white"
 </script>
 
-<button class='bg-purple-one rounded-lg p-5 h-[1rem] w-[9rem] text-m fixed right-[1rem]' style="color:{color}">
+<button class='bg-purple-one rounded-lg p-5 h-[1rem] w-[9rem] text-m fixed right-[1rem] z-10' style="color:{color}">
     <div class="mt-[-10%] flex">
         <span class='font-semibold ml-auto'>Create Ad</span>
         <svg xmlns="http://www.w3.org/2000/svg" fill="{color}" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-6 ml-3">
