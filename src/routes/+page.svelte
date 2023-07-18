@@ -13,9 +13,9 @@
         <CreateAdButton />
       </div>
     </div>
-    <section class="grid grid-cols-3 gap-3 mb-[20rem]">
-      <AdCard />
-      <AdCard />
+    <section class="grid sm:grid-cols-3 gap-3 mb-[20rem]">
+      <AdCard image1="../../../src/images/photo-1685226119907-1d836117d2fe.jpg" image2="../../../src/images/premium_photo-1673913966947-a9e2bf8ddf20.jpg"/>
+      <AdCard image1="../../../src/images/photo-1685226119907-1d836117d2fe.jpg" image2="../../../src/images/photo-1687367480028-e4f582ff92b0.jpg"/>
     </section>
   </div>
   
