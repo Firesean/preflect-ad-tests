@@ -46,7 +46,7 @@
         <img class="rounded-lg object-cover w-full h-full" src="{image2}" alt="Placeholder Image">
       </figure>
 
-      <span class="whitespace-normal text-sm relative left-[.25rem] bottom-[.5rem] responsiveText">Test</span>
-      <span class="flex flex-row col-start-4 relative left-[.25rem] bottom-[.5rem] whitespace-normal responsiveText">fefefe </span>
+      <span class="whitespace-normal relative left-[.25rem] bottom-[.5rem] responsiveText">Feed</span>
+      <span class="flex flex-row col-start-4 relative left-[.25rem] bottom-[.5rem] whitespace-normal responsiveText">Story</span>
   </div>
 </div>

@@ -23,11 +23,11 @@
 
 </style>
 
-<div class="sticky top-0 w-[25%] hidden sm:block bg-white px-6 overflow-x-hidden">
-    <div>
+<div class="sticky top-0 w-[10%] bg-white px-6 overflow-x-hidden sm:w-[25%]">
+    <div class="sm:right-0 relative right-[1.25rem] ">
       <PreflectLogo />
     </div>
-    <nav class="w-[12rem]">
+    <nav class="w-[12rem] relative right-[.25rem] ">
       <ul role="list">
         <li>
           <ul role="list" class="sideNavOption navUnderline w-[9rem]">
@@ -50,9 +50,10 @@
                 />
             </li>
             <li>
+                <!-- svgPathing="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" Pi Chart pathing -->
                 <SideNavBlock
                 label="Insights" link="#"
-                svgPathing="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z"
+                svgPathing="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" 
                 />
             </li>
           </ul>
@@ -102,20 +103,21 @@
         </li>
 
         <li class="sideNavOption navUnderline">
-            <h1 class="font-bold responsiveText">
+            <h1 class="font-bold responsiveText hidden sm:block">
                 Sample Business
             </h1>
             <a href="#" class='specialLink'>
-                <span class="responsiveText">Switch accounts
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 pb-1 inline-block">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                <span class="responsiveText"><span class="hidden sm:inline">Switch accounts</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 pb-1 inline-block">
+                    <!-- <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /> -->
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
             </a>
         </li>
 
         <li class='sideNavOption'>
-            <a href="#" class='specialLink responsiveText'>Log out 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 pb-1 inline-block">
+            <a href="#" class='specialLink responsiveText'><span class="hidden sm:inline">Log out</span> 
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 pb-1 inline-block">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
                 </svg>
             </a>
