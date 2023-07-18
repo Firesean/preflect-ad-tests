@@ -1,9 +1,13 @@
 <script>
-    import PreflectLogo from "./preflect_logo.svelte";
-    import SideNavBlock from "./side_nav_block.svelte";
+    import PreflectLogo from "./PreflectLogoSVG.svelte";
+    import SideNavBlock from "./SideNavBlock.svelte";
 </script>
 
 <style>
+
+    li {
+        @apply text-gray-one;
+    }
     .sideNavOption {
         @apply -mx-2 space-y-1;
     }
@@ -15,16 +19,22 @@
     .specialLink {
         @apply text-purple-one text-base font-semibold;
     }
+
+    li {
+        @apply pt-2 pb-2;
+    }
+
+
 </style>
 
-<div class="sticky top-0 w-[24%] hidden sm:block bg-white px-6 overflow-x-hidden">
-    <div class="flex w-[12rem]">
+<div class="sticky top-0 w-[19%] hidden sm:block bg-white px-6 overflow-x-hidden">
+    <div>
       <PreflectLogo />
     </div>
-    <nav>
-      <ul role="list" class="flex flex-1 flex-col gap-y-7 w-[9rem]">
+    <nav class="w-[12rem]">
+      <ul role="list">
         <li>
-          <ul role="list" class="-mx-2 space-y-1 navUnderline w-[9rem]"> <!-- Needs to be modified to be a css class -->
+          <ul role="list" class="sideNavOption navUnderline w-[9rem]">
             <li>
                 <SideNavBlock
                 label="Overview" link="#"

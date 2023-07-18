@@ -1,5 +1,5 @@
 <script>
-    import SideNav from '$lib/components/side_nav.svelte';
+    import SideNav from '$lib/components/SideNav.svelte';
     import '../app.css';
     import { onMount } from 'svelte';
 
