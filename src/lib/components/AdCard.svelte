@@ -8,8 +8,17 @@
   figure{
     @apply text-gray-two;
   }
+
+  img{
+    @apply rounded-lg object-cover w-full h-full;
+  }
+
+  .captionText{
+    @apply whitespace-normal relative left-[.25rem] bottom-[.5rem];
+  }
 </style>
 
+<!-- Clock SVG -->
 <div class="grid col-span-1 bg-white-one w-[100%] h-[100%] p-2 rounded-lg">
   <span class="justify-end grid grid-cols-2 text-purple-one font-semibold p-1">
     <div class="relative flex items-center justify-center w-5 h-5 rounded-full bg-blue-one bg-opacity-90">
@@ -28,15 +37,15 @@
     <div class="grid grid-cols-5 gap-2 w-[100%] h-[100%] pb-[.5rem]">
       <figure class='grid col-span-3'>
         <!-- svelte-ignore a11y-img-redundant-alt -->
-        <img class="rounded-lg w-full h-full object-cover aspect-square" src="{image1}" alt="Placeholder Image">
+        <img class="aspect-square" src="{image1}" alt="Placeholder Image">
       </figure>
 
       <figure class='grid col-span-2'>
         <!-- svelte-ignore a11y-img-redundant-alt -->
-        <img class="rounded-lg object-cover w-full h-full" src="{image2}" alt="Placeholder Image">
+        <img class="" src="{image2}" alt="Placeholder Image">
       </figure>
 
-      <span class="whitespace-normal relative left-[.25rem] bottom-[.5rem] responsiveText">Feed</span>
-      <span class="flex flex-row col-start-4 relative left-[.25rem] bottom-[.5rem] whitespace-normal responsiveText">Story</span>
+      <span class="captionText responsiveText">Feed</span>
+      <span class="flex flex-row col-start-4 captionText responsiveText">Story</span>
   </div>
 </div>

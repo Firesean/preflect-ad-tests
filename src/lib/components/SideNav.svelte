@@ -45,7 +45,7 @@
                 svgPathing="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" 
                 />
             </li>
-            <li class="navUnderline w-[80%]">
+            <li class="navUnderline">
                 <!-- svgPathing="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" Pi Chart pathing -->
                 <SideNavBlock
                 label="Insights" link="#"
@@ -62,7 +62,7 @@
                     svgPathing="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" 
                     />
                 </li>
-                <li class="navUnderline w-[80%]">
+                <li class="navUnderline">
                     <SideNavBlock 
                     label="Refer & Earn" link="#"
                     svgPathing="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"
@@ -72,7 +72,7 @@
         </li>
 
         <li>
-            <ul class="sideNavOption navUnderline w-[80%] pb-20">
+            <ul class="sideNavOption navUnderline pb-20">
                 <li>
                     <SideNavBlock
                     label="Datasets" link="#"
@@ -96,7 +96,7 @@
             </ul>
         </li>
 
-        <li class="sideNavOption navUnderline w-[80%]">
+        <li class="sideNavOption navUnderline">
             <h1 class="font-bold responsiveText hidden sm:block">
                 Sample Business
             </h1>

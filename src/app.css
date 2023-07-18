@@ -7,5 +7,5 @@
 }
 
 .navUnderline {
-    @apply sm:border-collapse md:border-solid md:border-b-2 md:border-gray-two sm:border-b-0;
+    @apply sm:border-collapse md:border-solid md:border-b-2 md:border-gray-two sm:border-b-0 w-[80%];
 }
