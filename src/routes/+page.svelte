@@ -3,8 +3,8 @@
     import AdCard from '$lib/components/AdCard.svelte';
 </script>
 
-<div class='h-screen w-full grid bg-gray-three p-3 pl-[3rem] pr-[3rem] sm:w-full'>
-    <div class="grid grid-cols-2 h-[100%]">
+<div class='h-full grid bg-gray-three p-3 pl-[3rem] pr-[3rem] sm:w-full'>
+    <div class="grid grid-cols-2 h-[100%] mb-[3rem] mt-[2rem]">
       <div>
         <h1 class='font-bold text-3xl'>Meta Ads</h1>
         <p class='text-gray-one text-base'>Run evergreen ads on Facebook and Instagram</p>

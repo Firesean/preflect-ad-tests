@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .responsiveText {
-    @apply lg:text-base md:text-[.9rem] sm:text-[.75rem]; 
+    @apply lg:text-base md:text-[.9rem] sm:text-[.75rem] xl:text-[1.05rem]; 
 }
 
 .navUnderline {
-    @apply sm:border-collapse md:border-solid md:border-b-2 md:border-gray-two sm:border-b-0 w-[80%];
+    @apply sm:border-collapse md:border-solid md:border-b-2 md:border-gray-three sm:border-b-0 w-[80%];
 }

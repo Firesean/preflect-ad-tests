@@ -19,7 +19,7 @@
 
 </style>
 
-<div class="sticky top-0 w-[10%] bg-white px-6 overflow-x-hidden sm:w-[25%]">
+<div class="sticky top-0 w-[10%] h-full bg-white px-6 overflow-x-hidden sm:w-[25%]">
     <div class="sm:right-0 relative right-[1.25rem] ">
       <PreflectLogo />
     </div>
@@ -64,7 +64,7 @@
                 </li>
                 <li class="navUnderline">
                     <SideNavBlock 
-                    label="Refer & Earn" link="#"
+                    label="Refer & earn" link="#"
                     svgPathing="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"
                     />
                 </li>
@@ -72,7 +72,7 @@
         </li>
 
         <li>
-            <ul class="sideNavOption navUnderline pb-20">
+            <ul class="sideNavOption navUnderline pb-10">
                 <li>
                     <SideNavBlock
                     label="Datasets" link="#"
@@ -97,11 +97,11 @@
         </li>
 
         <li class="sideNavOption navUnderline">
-            <h1 class="font-bold responsiveText hidden sm:block">
+            <h1 class="font-bold text-[black] responsiveText hidden sm:block">
                 Sample Business
             </h1>
             <a href="#" class='specialLink'>
-                <span class="hidden sm:inline responsiveText">Switch Accounts</span>
+                <span class="hidden sm:inline responsiveText">Switch accounts</span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 pb-1 lg:h-6 lg:w-6 inline-block">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
@@ -109,7 +109,7 @@
         </li>
 
         <li class='sideNavOption'>
-            <a href="#" class='specialLink responsiveText'><span class="hidden sm:inline">Log Out</span> 
+            <a href="#" class='specialLink responsiveText'><span class="hidden sm:inline">Log out</span> 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 pb-1 inline-block">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
                 </svg>
