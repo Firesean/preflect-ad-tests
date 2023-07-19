@@ -12,4 +12,4 @@
 
 .hideOnMobile {
     @apply hidden md:inline sm:block;
-}
+} 

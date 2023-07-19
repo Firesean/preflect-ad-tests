@@ -9,7 +9,7 @@
         <h1 class='font-bold text-3xl'>Meta Ads</h1>
         <p class='text-gray-one text-base'>Run evergreen ads on Facebook and Instagram</p>
       </div>
-      <div class="mt-[1rem]">
+      <div class="absolute mt-[1rem] right-[3rem]">
         <CreateAdButton />
       </div>
     </div>
