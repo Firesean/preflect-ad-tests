@@ -9,3 +9,7 @@
 .navUnderline {
     @apply sm:border-collapse md:border-solid md:border-b-2 md:border-gray-three sm:border-b-0 w-[80%];
 }
+
+.hideOnMobile {
+    @apply hidden sm:inline;
+}
