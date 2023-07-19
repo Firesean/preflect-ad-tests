@@ -14,10 +14,10 @@
       </div>
     </div>
     <section class="grid sm:grid-cols-3 gap-3 mb-[100%]">
-      <AdCard feedImg="../../../src/images/photo-1685226119907-1d836117d2fe.jpg" storyImg="../../../src/images/premium_photo-1673913966947-a9e2bf8ddf20.jpg"/>
-      <AdCard feedImg="../../../src/images/photo-1687463221057-bfb5daae88d0.jpg" storyImg="../../../src/images/photo-1687367480028-e4f582ff92b0.jpg"/>
-      <AdCard feedImg="../../../src/images/photo-1687015834172-232445885588.jpg" storyImg="../../../src/images/photo-1687913161653-7cddb0ba09b0.jpg"/>
-      <AdCard feedImg="../../../src/images/premium_photo-1684706282813-201f3afb35b6.jpg" storyImg="../../../src/images/photo-1688310482819-fb0ce61f9fcf.jpg"/>
+      <AdCard feedImg="https://source.unsplash.com/random/?dog" storyImg="https://source.unsplash.com/random/?dog"/>
+      <AdCard feedImg="https://source.unsplash.com/random/?mouse" storyImg="https://source.unsplash.com/random/?cat"/>
+      <AdCard feedImg="https://source.unsplash.com/random/?snake" storyImg="https://source.unsplash.com/random/?horse"/>
+      <AdCard feedImg="https://source.unsplash.com/random/?blue" storyImg="https://source.unsplash.com/random/?computer"/>
     </section>
   </div>
   
