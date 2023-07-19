@@ -9,7 +9,7 @@
         @apply text-gray-one pt-2 pb-2;
     }
 
-    ul {
+    .sideNavOption {
         @apply -mx-2 space-y-1;
     }
 
@@ -26,7 +26,7 @@
     <nav class="w-[12rem] relative right-[.25rem] ">
       <ul role="list">
         <li>
-          <ul role="list">
+          <ul role="list" class="sideNavOption">
             <li>
                 <SideNavBlock
                 label="Overview" link="#"
@@ -55,7 +55,7 @@
           </ul>
         </li>
         <li>
-            <ul>
+            <ul class="sideNavOption">
                 <li>
                     <SideNavBlock
                     label="Support" link="#"
@@ -72,7 +72,7 @@
         </li>
 
         <li>
-            <ul class="navUnderline pb-10">
+            <ul class="sideNavOption navUnderline pb-10">
                 <li>
                     <SideNavBlock
                     label="Datasets" link="#"
@@ -96,7 +96,7 @@
             </ul>
         </li>
 
-        <li class="navUnderline">
+        <li class="sideNavOption navUnderline">
             <h1 class="font-bold text-[black] responsiveText hidden sm:block">
                 Sample Business
             </h1>
@@ -108,7 +108,7 @@
             </a>
         </li>
 
-        <li>
+        <li class='sideNavOption'>
             <a href="#" class='specialLink responsiveText'><span class="hidden sm:inline">Log out</span> 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 pb-1 inline-block">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
