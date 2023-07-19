@@ -9,7 +9,7 @@
     });
 </script>
 
-<div class='flex h-screen'>
+<div class='flex h-full'>
     <SideNav />
     <slot />
 </div>
