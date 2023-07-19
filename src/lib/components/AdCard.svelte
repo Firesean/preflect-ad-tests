@@ -42,7 +42,7 @@
 
       <figure class='grid col-span-2'>
         <!-- svelte-ignore a11y-img-redundant-alt -->
-        <img src="{storyImg}" alt="Placeholder Image">
+        <img src="{storyImg}" style="object-fit: contain" class="bg-gray-three" alt="Placeholder Image">
       </figure>
 
       <span class="captionText responsiveText text-gray-two">Feed</span>
