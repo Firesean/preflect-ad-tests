@@ -9,7 +9,7 @@
         @apply text-gray-one pt-2 pb-2;
     }
 
-    .sideNavOption {
+    .sideNavOption, li ul {
         @apply -mx-2 space-y-1;
     }
 
@@ -26,7 +26,7 @@
     <nav class="w-[12rem] relative right-[.25rem] ">
       <ul role="list">
         <li>
-          <ul role="list" class="sideNavOption">
+          <ul role="list">
             <li>
                 <SideNavBlock
                 label="Overview" link="#"
@@ -55,7 +55,7 @@
           </ul>
         </li>
         <li>
-            <ul class="sideNavOption">
+            <ul>
                 <li>
                     <SideNavBlock
                     label="Support" link="#"
@@ -72,7 +72,7 @@
         </li>
 
         <li>
-            <ul class="sideNavOption navUnderline pb-10">
+            <ul class="navUnderline pb-10">
                 <li>
                     <SideNavBlock
                     label="Datasets" link="#"
