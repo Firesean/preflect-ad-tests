@@ -19,7 +19,7 @@
 </style>
 
 <!-- Clock SVG -->
-<div class="grid col-span-1 bg-white-one w-[100%] h-[100%] p-2 rounded-lg">
+<div class="grid col-span-1 bg-white-one w-[100%] h-[100%] p-2 rounded-lg min-w-[135px]">
   <span class="justify-end grid grid-cols-2 text-purple-one font-semibold p-1">
     <div class="relative flex items-center justify-center w-[1.5rem] h-[1.5rem] rounded-full bg-blue-one bg-opacity-95">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-[.9rem] h-[.9rem]">

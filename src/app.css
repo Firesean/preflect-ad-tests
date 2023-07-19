@@ -11,5 +11,5 @@
 }
 
 .hideOnMobile {
-    @apply hidden sm:inline;
+    @apply hidden md:inline sm:block;
 }
