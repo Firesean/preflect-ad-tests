@@ -23,7 +23,7 @@
     <div class="sm:right-0 relative right-[1.25rem] ">
       <PreflectLogo />
     </div>
-    <nav class="w-[12rem] relative right-[.25rem]">
+    <nav class="w-[12rem] relative right-[.25rem] mt-[-2rem]">
       <ul role="list">
         <li>
           <ul role="list">

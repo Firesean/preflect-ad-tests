@@ -13,7 +13,7 @@
         <CreateAdButton />
       </div>
     </div>
-    <section class="grid mt-[-2rem] sm:grid-cols-3 gap-3 mb-[100%]">
+    <section class="grid mt-[-2rem] sm:mt-[-5rem] sm:grid-cols-3 gap-3 mb-[100%]">
       <AdCard feedImg="https://source.unsplash.com/random/?dog" storyImg="https://source.unsplash.com/random/?dog"/>
       <AdCard feedImg="https://source.unsplash.com/random/?mouse" storyImg="https://source.unsplash.com/random/?cat"/>
       <AdCard feedImg="https://source.unsplash.com/random/?snake" storyImg="https://source.unsplash.com/random/?horse"/>
