@@ -1,7 +1,7 @@
 <script>
   import ToggleButton from "./ToggleButton.svelte";
-  export let image1;
-  export let image2;
+  export let feedImg;
+  export let storyImg;
 </script>
 
 <style>
@@ -37,12 +37,12 @@
     <div class="grid grid-cols-5 gap-2 w-[100%] h-[100%] pb-[.5rem]">
       <figure class='grid col-span-3'>
         <!-- svelte-ignore a11y-img-redundant-alt -->
-        <img class="aspect-square" src="{image1}" alt="Placeholder Image">
+        <img class="aspect-square" src="{feedImg}" alt="Placeholder Image">
       </figure>
 
       <figure class='grid col-span-2'>
         <!-- svelte-ignore a11y-img-redundant-alt -->
-        <img class="" src="{image2}" alt="Placeholder Image">
+        <img src="{storyImg}" alt="Placeholder Image">
       </figure>
 
       <span class="captionText responsiveText text-gray-two">Feed</span>
