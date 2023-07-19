@@ -28,7 +28,7 @@
     </div>
   
     <div class="flex flex-row justify-end flex-shrink-0">
-      <span class="pr-4">edit</span>
+      <span class="pr-2">edit</span>
       <ToggleButton />
     </div>
   </span>
