@@ -13,3 +13,13 @@
 .hideOnMobile {
     @apply hidden md:inline sm:block;
 } 
+
+.specialSVG {
+    @apply w-8 h-8 pb-1 inline-block;
+}
+
+@media (max-width: 639px){
+    .specialSVG {
+        @apply relative right-[.2rem];
+    }
+}
