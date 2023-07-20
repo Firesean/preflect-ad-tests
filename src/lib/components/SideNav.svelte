@@ -17,10 +17,6 @@
         @apply text-purple-one text-base font-semibold;
     }
 
-    .specialSVG {
-        @apply w-8 h-8 pb-1 inline-block;
-    }
-
 </style>
 
 <div class="sticky top-0 w-[10%] h-full bg-white px-6 overflow-x-hidden sm:w-[25%]">
