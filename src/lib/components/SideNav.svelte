@@ -19,7 +19,7 @@
 
 </style>
 
-<div class="sticky top-0 w-[10%] h-full bg-white px-6 overflow-x-hidden sm:w-[25%]">
+<div class="sticky top-0 max-w-[12rem] w-[10%] h-full bg-white px-6 overflow-x-hidden sm:w-[25%]">
     <div class="sm:right-0 relative right-[1.25rem] ">
       <PreflectLogo />
     </div>
